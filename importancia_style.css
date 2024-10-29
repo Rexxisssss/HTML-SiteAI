@@ -1,0 +1,142 @@
+body{
+    background-color: #282828;
+    opacity: 1;
+    background-image:  linear-gradient(30deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(150deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(30deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(150deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(60deg, #00000077 25%, transparent 25.5%, transparent 75%, #00000077 75%, #00000077), linear-gradient(60deg, #00000077 25%, transparent 25.5%, transparent 75%, #00000077 75%, #00000077);
+    background-size: 16px 28px;
+    background-position: 0 0, 0 0, 8px 14px, 8px 14px, 0 0, 8px 14px;
+    font-family: Verdana;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 2s ease-in;
+}
+
+.visible {
+    opacity: 1; /* Visível após carregar */
+}
+
+table{
+    background: linear-gradient( #FFFFFF, #e6e5e5);
+    box-shadow: 15px 5px 15px rgba(0, 0, 0, 0.3);
+    border-collapse: collapse;
+    border: none;
+    overflow: hidden;
+    margin: auto;
+}
+
+td{
+    border: none;
+}
+
+th{
+    border-collapse: collapse;
+    border: solid black;
+}
+
+th a{
+    text-decoration: none;
+    color: inherit; 
+}
+
+.active{
+    color: white;
+    background-color: #282828;
+    width: 40%;
+}
+
+.pag{
+    width: 30%;
+}
+
+.pag:hover{
+    background-color: #0026ff;
+    color: greenyellow;
+}
+
+.img_pos1{
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.img_pos2{
+    margin-top: 2%;
+    width: 40%;
+}
+
+.img_pos3{
+    margin-top: 2%;
+    margin-left: 60%;
+    width: 40%;
+}
+
+header {
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(37,37,37,1) 35%, rgb(83, 83, 83) 100%);
+    color: white;
+    position: fixed; /* Define o header como fixo */
+    top: 0; /* Fixa no topo da página */
+    left: 0;
+    width: 100%; /* Ocupa toda a largura da janela */
+    z-index: 1000; /* Garante que o header fique por cima do restante da página */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 15); /* Adiciona uma sombra para destacá-lo */
+}
+
+/* Estilo para a navegação */
+header nav ul {
+    list-style: none; /* Remove os pontos da lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Faz os itens da lista ficarem lado a lado */
+    gap: 15px; /* Espaçamento entre os itens da lista */
+}
+
+header nav ul li {
+    display: inline; /* Alinha os itens horizontalmente */
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px; /* Adiciona espaço ao redor do texto */
+}
+
+.zoom {
+    transition: transform .2s; 
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.05); 
+}
+
+/* Estilo para o corpo da página */
+main {
+    margin-top: 7%; /* Cria um espaço para que o conteúdo não fique por baixo do header */
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+section h2 {
+    font-size: 24px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.video{
+    margin-left: 38%;
+}
+
+.texto{
+    width: 300%;
+    text-align: justify;
+    margin-left: 32%;
+}
